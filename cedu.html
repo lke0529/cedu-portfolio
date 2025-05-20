@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>쎄듀런</title>
+
+  <!-- Pretendard CDN -->
+  <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-white text-[#101010] font-sans">
+
+  <!-- About Section -->
+  <section class="max-w-[1000px] mx-auto pt-[100px]">
+    <h1 class="text-4xl font-bold mb-2">쎄듀런</h1>
+    <h2 class="text-[16px] text-gray-400 mb-8">온라인 영어학습 플랫폼 (기여도:디자인85%)</h2>
+  </section>
+
+  <!-- 메인 이미지 Section -->
+  <section class="max-w-[1000px] mx-auto pb-[68px]">
+    <img src="cedumain.png" alt="메인 이미지" class="w-full rounded-lg shadow-sm" />
+  </section>
+
+  <!-- Design Concept Section -->
+  <section class="max-w-[1000px] mx-auto py-20 space-y-[160px]">
+
+    <!-- Project Goal -->
+    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-4 md:gap-[184px]">
+      <p class="font-bold text-[#111827] whitespace-nowrap">PROJECT GOAL</p>
+      <div class="text-[15px] text-gray-600 md:max-w-[75%] space-y-1">
+        <p>‘쎄듀런’은 학생이 스스로 영어 실력을 향상시킬 수 있도록 돕는 자기주도형 온라인 학습 플랫폼입니다.</p>
+        <p>구문, 문법, 어휘 등 각 영역에 최적화된 다양한 영어 학습 액티비티를 통해 자유롭게 커리큘럼을 구성할 수 있습니다.</p>
+        <p>기존의 불편한 점들을 개선해, 사용자의 학습 성향과 필요에 맞는 정보를 효율적으로 제공하며,</p>
+        <p>다양한 디바이스와 해상도에 최적화되는 반응형 웹으로 제작되었습니다.</p>
+      </div>
+    </div>
+
+    <!-- Design Concept -->
+    <div class="flex flex-col md:flex-row md:items-start md:gap-[174px]">
+      <p class="font-bold text-[#111827] whitespace-nowrap min-w-[160px]">DESIGN CONCEPT</p>
+      <div class="text-[15px] text-gray-600">
+        <img src="ceduconcept.png" alt="컨셉 이미지" class="w-[580px] mb-14" />
+        <p class="mb-1">카드형 UI를 기반으로 한 인터페이스 설계로, 시각적으로 명확하게 구별되어 쉽게 정보의 구조를 파악할 수 있도록</p>
+          <p>제작하였습니다. 또한 컬러를 활용하여 기존 모듈형 UI의 단조로움을 해소하고, 빠른 접근이 가능하도록 구성했습니다.</p>
+      </div>
+    </div>
+
+    <!-- Design Elements -->
+    <div class="flex flex-col md:flex-row md:items-start md:gap-[174px] pb-20">
+      <p class="font-bold text-[#111827] whitespace-nowrap min-w-[160px]">DESIGN ELEMENTS</p>
+      <div class="text-[15px] text-gray-600 md:max-w-[70%]">
+        <div class="flex flex-col items-start">
+          <div class="flex gap-16 mb-12">
+            <img src="font.png" alt="폰트 이미지" class="w-[260px]" />
+            <img src="ceducolor.png" alt="ceducolor" class="w-[280px]" />
+          </div>
+          <div class="space-y-1">
+            <p>브랜드 컬러는 핵심정보를 시각적으로 구분하며, 서브 컬러는 보조 정보에 사용했습니다.</p>
+            <p>Pretendard 폰트를 기반으로 깔끔하고 현대적인 사용자 경험을 제공합니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+<!-- 콘텐츠 생성 Section -->
+<div class="flex justify-center pt-16">
+  <span class="bg-[#D0EFF5] text-[#1394AD] text-[18px] font-semibold px-6 py-2 rounded-full">
+    선생님
+  </span>
+</div>
+  <section class="bg-[#ffffff] py-[32px] pb-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[#15171A] font-bold mb-4">선생님을 위한 맞춤형 문제 생성 도구</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+      <p>출제 범위, 난이도, 문제 유형을 3단계로 나누어 직관적으로 설정할 수 있도록 UX를 최적화하여,</p>
+        <p>콘텐츠를 쉽고 빠르게 생성할 수 있도록 설계했습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail01.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+
+<!-- 학생 배정 Section -->
+  <section class="bg-[#ffffff] py-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">복잡한 배정 절차를 한눈에 간단하게</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+        <p>기존 복잡한 배정 절차를 간소화하고, 학생별/반별 탭을 분리해 사용자 흐름을 단순화하였습니다.</p>
+        <p>각 학생 정보를 클릭해 수업 클래스를 직관적으로 배정할 수 있고, 검색 및 필터 기능으로 배정을 더욱 빠르게 진행할 수 있습니다.</p>
+    
+      
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail02.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+<!-- 학사관리 Section -->
+  <section class="bg-[#ffffff] py-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">체계적인 학사관리</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+        <p>교사용 학습 관리 시스템의 대시보드를 설계하여, 학습 진행률과 학생 성취 데이터를 직관적으로 확인할 수 있도록 구성했습니다.</p>
+        <p>복잡한 정보를 시각화하고 핵심만 요약해 보여주는 UI로 교사의 업무 효율성과 사용자 경험을 동시에 개선했습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail03.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 마이클래스(학생) Section -->
+<div class="flex justify-center pt-16">
+  <span class="bg-[#DDD7FC] text-[#614DCC] text-[18px] font-semibold px-6 py-2 rounded-full">
+    학생
+  </span>
+</div>
+  <section class="bg-[#ffffff] py-[32px] pb-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[#15171A] font-bold mb-4">나만의 클래스</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+      <p>학습 회차 및 일자에 따라 D-Day, 완료율 등 주요 지표를 시각화하여 학습 현황을 직관적으로 파악할 수 있도록 구성하였습니다.</p>
+       <p>TR/TEST 유형 및 학습 상태별 컬러 코드를 적용해 사용자 중심의 효율적인 학습 관리가 가능하도록 UI를 설계하였습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail04.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 대시보드 Section -->
+  <section class="bg-[#ffffff] py-[100px]">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">학습 활동 분석 기반 대시보드</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+         <p>학습 수행률 대시보드를 팝업 형식으로 구성해 정보 과밀을 줄이고, 핵심 지표를 직관적인 그래프로</p>
+          <p>시각화하여 효율적인 피드백이 가능하도록 설계했습니다. AI 분석 리포트와 미이수 리마인드 기능을 통해</p>
+           <p>학습자의 몰입도와 지속률을 높이는 UX를 구현했습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail05.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 문제풀이 Section -->
+  <section class="bg-[#ffffff] py-[100px] pb-20">
+    <div class="max-w-[900px] mx-auto">
+      <div class="text-center mb-14">
+        <h2 class="text-[32px] text-[##15171A] font-bold mb-4">다양한 영어 학습 문제풀이</h2>
+        <div class="text-gray-500 text-[16px] leading-relaxed space-y-1">
+        <p>다양한 문제 유형에 맞춘 입력 방식과 시각적 구조를 통해 학습 몰입도를 높이고 사용자 혼란을 최소화하는 문제풀이 UI를 설계하였습니다.</p>
+        <p>모바일 친화적인 입력 UX와 직관적인 문제 흐름 설계를 기반으로 자기주도 학습 경험을 유도하였습니다.</p>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <img src="cedudetail06.png" alt="상세 이미지" class="w-full" />
+      </div>
+    </div>
+  </section>
+
+   <!-- 마지막 이미지 Section -->
+   <section class="bg-[#F4F7FA]">
+  <div class="mx-auto">
+    <img src="cedupreview.png" alt="메인 이미지" class="w-full rounded-lg shadow-sm" />
+  </section>
+
+
+</body>
+</html>
